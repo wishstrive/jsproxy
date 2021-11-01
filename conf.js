@@ -29,7 +29,7 @@ jsproxy_config({
     'mysite': {
       label: '当前站点',
       lines: {
-        'wishstrive.github.io:8443': 1,
+        [location.host]: 1,
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -46,7 +46,7 @@ jsproxy_config({
         //'b.hehe.workers.dev': 1,
         //'b.lulu.workers.dev': 1,
         //'b.jsproxy.workers.dev': 1,
-        'w.wishstrive.workers.dev': 1,
+        //'w.wishstrive.workers.dev': 1,
       }
     }
   },
